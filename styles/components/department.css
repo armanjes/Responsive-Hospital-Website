@@ -1,0 +1,111 @@
+:root {
+  --emergency-red: #ee6969;
+  --medicine-green: #4caf50;
+  --radiology-blue: #2196f3;
+  --ambulance-grey: #bdbdbd;
+  --customercare-cyan: #00796b;
+  --heart-crimson: #c2185b;
+}
+
+#department {
+  background-color: var(--pastel-grey);
+}
+
+#department .box-container .box .learn-more-section {
+  display: flex;
+  align-items: center;
+}
+
+#department .box-container .box a:hover {
+  text-decoration: underline;
+}
+
+#department .box-container .box a,
+#department .box-container .box iconify-icon {
+  display: inline-block;
+}
+
+#department .box-container .box .learn-more-section {
+  display: flex;
+  align-items: center;
+  gap: 0 0.256em;
+}
+
+#department .box-container .box .learn-more-section iconify-icon {
+  font-size: 1.4em;
+}
+
+#department .box-container .box:first-child iconify-icon {
+  color: #c2185b;
+}
+
+#department .box-container .box:last-child iconify-icon {
+  color: var(--customercare-cyan);
+}
+
+#department .box-container .box:nth-child(2) iconify-icon {
+  color: var(--radiology-blue);
+}
+
+#department .box-container .box:nth-child(3) iconify-icon {
+  color: var(--ambulance-grey);
+}
+
+#department .box-container .box:nth-child(4) iconify-icon {
+  color: var(--medicine-green);
+}
+
+#department .box-container .box:nth-child(5) iconify-icon {
+  color: var(--emergency-red);
+}
+
+/* media queries for tab */
+
+@media screen and (min-width: 768px) {
+  #department .box-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2em;
+  }
+
+  .box-container .box {
+    flex-basis: 48%;
+  }
+}
+
+/* media queries for laptop & large screens */
+@media screen and (min-width: 1024px) {
+  #department .box-container .box {
+    flex-basis: 30%;
+  }
+
+  #department .box-container .box iconify-icon {
+    color: unset !important;
+    transition: color 0.236s ease-in-out;
+  }
+
+  #department .box-container .box:first-child:hover iconify-icon {
+    color: var(--heart-crimson) !important;
+  }
+
+  #department .box-container .box:last-child:hover iconify-icon {
+    color: var(--customercare-cyan) !important;
+  }
+
+  #department .box-container .box:nth-child(2):hover iconify-icon {
+    color: var(--radiology-blue) !important;
+  }
+
+  #department .box-container .box:nth-child(3):hover iconify-icon {
+    color: var(--ambulance-grey) !important;
+  }
+
+  #department .box-container .box:nth-child(4):hover iconify-icon {
+    color: var(--medicine-green) !important;
+  }
+
+  #department .box-container .box:nth-child(5):hover iconify-icon {
+    color: var(--emergency-red) !important;
+  }
+}

@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.footer-content{
+    display: flex;
+    padding: 1.2em 0;
+}
+
+.footer .footer-content .copy-right,
+.footer .footer-content .footer-icon-container{
+    flex: 1;
+}
+
+.footer .footer-icon-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0 10px;
+    & li a:last-child{
+        color:white;
+    }
+}
+
+.footer .footer-icon-container li a .iconify-icon{
+    font-size: 20px;
+}

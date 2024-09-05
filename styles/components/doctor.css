@@ -1,0 +1,28 @@
+#doctor .container .box-container .box .doctor-sub-title {
+  margin-top: 10px;
+  color: #6f7078;
+}
+
+/* media queries for tab */
+@media screen and (min-width: 768px) {
+  #doctor .box-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.2em;
+  }
+
+  .box-container .box {
+    flex-basis: 48%;
+  }
+}
+
+/* media queries for laptop & large screens */
+@media screen and (min-width: 1024px) {
+  .box-container {
+    justify-content: center;
+  }
+
+  .box-container .box {
+    flex-basis: 30%;
+  }
+}
