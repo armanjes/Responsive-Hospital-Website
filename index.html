@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./public/images/favicon.ico"
+      type="image/x-icon"
+    />
     <title>Hospital</title>
   </head>
   <body>
@@ -76,7 +81,17 @@
               </div>
 
               <div class="home-container-right">
-                <img src="./public/images/hero-medical-team.jpg" alt="" />
+                <picture>
+                  <source
+                    media="(min-width:1024px)"
+                    srcset="./public/images/homeB.webp"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="./public/images/homeM.webp"
+                  />
+                  <img src="./public/images/homeS.webp" alt="Home Image" />
+                </picture>
               </div>
             </div>
           </div>
@@ -92,22 +107,22 @@
 
           <div class="box-container">
             <div class="img-box">
-              <img src="./public/images/01.png" alt="service image" />
+              <img src="./public/images/01.webp" alt="service image" />
             </div>
             <div class="img-box">
-              <img src="./public/images/02.png" alt="service image" />
+              <img src="./public/images/02.webp" alt="service image" />
             </div>
             <div class="img-box">
-              <img src="./public/images/03.png" alt="service image" />
+              <img src="./public/images/03.webp" alt="service image" />
             </div>
             <div class="img-box">
-              <img src="./public/images/04.png" alt="service image" />
+              <img src="./public/images/04.webp" alt="service image" />
             </div>
             <div class="img-box">
-              <img src="./public/images/05.png" alt="service image" />
+              <img src="./public/images/05.webp" alt="service image" />
             </div>
             <div class="img-box">
-              <img src="./public/images/06.png" alt="service image" />
+              <img src="./public/images/06.webp" alt="service image" />
             </div>
           </div>
         </div>
@@ -326,7 +341,9 @@
                 <input required="true" type="email" placeholder="email" />
               </div>
               <textarea required="true" placeholder="your message"></textarea>
-              <div><input class="btn" type="submit" value="Send Message"></div>
+              <div>
+                <input class="btn" type="submit" value="Send Message" />
+              </div>
             </form>
           </div>
         </div>
@@ -360,6 +377,6 @@
         </div>
       </section>
     </footer>
-    <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/main.js" defer></script>
   </body>
 </html>
