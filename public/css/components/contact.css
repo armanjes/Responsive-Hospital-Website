@@ -32,6 +32,13 @@ textarea {
   border: 1px solid #222222;
   padding: 6px 12px;
   border-radius: 6px;
+  outline: 2px solid transparent;
+}
+
+#contact .box-container .contact-form-container input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: 2px solid #222222;
 }
 
 @media screen and (min-width: 768px) {

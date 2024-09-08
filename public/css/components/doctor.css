@@ -3,6 +3,22 @@
   color: #6f7078;
 }
 
+.cta-btn {
+  margin-top: 22px;
+  text-align: center;
+}
+
+.cta-btn .btn {
+  background-color: var(--black);
+  color: var(--white);
+  outline: 10px solid transparent;
+  transition: outline 0.236s ease-in-out;
+}
+
+.cta-btn .btn:hover {
+  outline: 2px solid var(--pastel-grey-text);
+}
+
 /* media queries for tab */
 @media screen and (min-width: 768px) {
   #doctor .box-container {
