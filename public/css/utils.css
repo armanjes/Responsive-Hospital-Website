@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -12,7 +12,7 @@
   margin-bottom: 22px;
 }
 
-.section-heading > p{
+.section-heading > p {
   color: #6f7078;
   font-weight: 400;
   margin: 10px 0;
@@ -47,12 +47,22 @@
 
 .btn {
   display: inline-block;
-  border: 1px solid #222222;
+  border: 2px solid #222222;
   color: #222222;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   padding: 13px 23px;
+  transition: all 0.236s ease-in-out;
+}
+
+.btn:hover {
+  border: 2px solid var(--pastel-red);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
 }

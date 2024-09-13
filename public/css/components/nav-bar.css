@@ -25,16 +25,19 @@ header {
   display: flex;
   flex-direction: column;
   gap: 1.2em;
-  opacity: 0;
   transform: translateX(100%);
-  transition: all .3s ease-in-out;
   display: none;
   z-index: 999;
-  transition: all 0.3s linear !important;
 }
 
 nav ul li a{
   font-weight: 500;
+  font-size: 18px;
+  transition: all 0.236s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: var(--pastel-red);
 }
 
 nav .mobile-show {

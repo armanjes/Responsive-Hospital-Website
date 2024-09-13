@@ -16,7 +16,7 @@
 }
 
 .cta-btn .btn:hover {
-  outline: 2px solid var(--pastel-grey-text);
+  outline: 2px solid var(--pastel-red);
 }
 
 /* media queries for tab */

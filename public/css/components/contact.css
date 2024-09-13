@@ -38,7 +38,8 @@ textarea {
 #contact .box-container .contact-form-container input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  outline: 2px solid #222222;
+  outline: 2px solid var(--pastel-red);
+  border-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
