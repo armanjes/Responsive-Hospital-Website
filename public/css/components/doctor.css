@@ -3,6 +3,10 @@
   color: #6f7078;
 }
 
+.hide {
+  display: none;
+}
+
 .cta-btn {
   margin-top: 22px;
   text-align: center;
@@ -16,7 +20,7 @@
 }
 
 .cta-btn .btn:hover {
-  outline: 2px solid var(--pastel-red);
+  outline: 2px solid var(--focus-color);
 }
 
 /* media queries for tab */

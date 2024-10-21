@@ -1,0 +1,26 @@
+.filter-btn-container {
+    margin-bottom: 2em;
+    display: flex;
+    gap: 0 .5em;
+    overflow-y: auto;
+}
+
+.filter-btn-container .filter-btn {
+    padding: 4px 6px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.236s ease;
+}
+
+.filter-btn-container .filter-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.active {
+    background-color: black;
+    color: white;
+    transition: all 6s linear;
+}

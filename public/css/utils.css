@@ -58,7 +58,12 @@
 }
 
 .btn:hover {
-  border: 2px solid var(--pastel-red);
+  border: 2px solid var(--focus-color);
+}
+
+label {
+  cursor: pointer;
+  font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {

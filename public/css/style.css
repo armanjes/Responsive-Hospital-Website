@@ -2,6 +2,7 @@
   --pastel-red: #ee6969;
   --pastel-grey: #f4f5f4;
   --pastel-grey-text: #b0b0b0;
+  --focus-color: #79AC78;
   --black: #000000;
   --white: #ffffff;
 
@@ -53,7 +54,9 @@ button {
   cursor: pointer;
 }
 
-input,
+input[type="email"],
+input[type="password"],
+input[type="text"],
 textarea {
   all: unset;
 }

@@ -1,0 +1,76 @@
+#signup #signupForm {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 8px 16px;
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  border: 1px solid #222222;
+  padding: 6px 12px;
+  border-radius: 6px;
+  outline: 2px solid transparent;
+}
+
+:is(.form-group input[type="text"], .form-group input[type="password"]):focus {
+  outline: 2px solid var(--focus-color);
+  border-color: transparent;
+}
+
+#signup label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#signup input[type="text"],
+#signup input[type="password"],
+#signup input[type="email"],
+#signup select {
+  width: 95%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#signup button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#signup span{
+  font-size: 18px;
+  margin-top: 0.8em;
+  display: inline-block;
+}
+
+#signup span a {
+    color: var(--radiology-blue);
+    font-size: 19px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  #signup {
+    width: 70%;
+  }
+}

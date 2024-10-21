@@ -6,4 +6,5 @@ showBtn.addEventListener("click", function () {
 });
 hideBtn.addEventListener("click", function () {
   menus.classList.remove("showMenus");
+  
 });

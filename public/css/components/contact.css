@@ -38,7 +38,7 @@ textarea {
 #contact .box-container .contact-form-container input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  outline: 2px solid var(--pastel-red);
+  outline: 2px solid var(--focus-color);
   border-color: transparent;
 }
 

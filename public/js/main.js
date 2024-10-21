@@ -8,8 +8,14 @@ import "../css/components/department.css";
 import "../css/components/doctor.css";
 import "../css/components/contact.css";
 import "../css/components/footer.css";
+import "../css/pages/servicePage.css";
+import "../css/pages/doctorPage.css";
+import "../css/pages/login.css";
+import "../css/pages/signup.css";
 import "../css/utils.css";
 
 // JavaScript
 import "./icon.js";
 import "./mobile.js";
+import "./filter.js";
+import "./login.js";

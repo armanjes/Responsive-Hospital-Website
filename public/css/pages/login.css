@@ -1,0 +1,77 @@
+#login {
+  background-color: var(--pastel-grey);
+}
+
+#login .container form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8em;
+}
+
+#login .container form input[type="email"],
+#login .container form input[type="password"] {
+  border: 1px solid #222222;
+  padding: 6px 12px;
+  border-radius: 6px;
+  outline: 2px solid transparent;
+}
+
+#login .container form input[type="text"] {
+  border: 1px solid #222222;
+  padding: 6px 12px;
+  border-radius: 6px;
+  outline: 2px solid transparent;
+}
+
+#login .container form input[type="email"]:focus,
+#login .container form input[type="password"]:focus {
+  outline: 2px solid var(--focus-color);
+  border-color: transparent;
+}
+
+#login .container form input[type="submit"] {
+  background-color: #28a745;
+  border: none;
+  outline: none;
+  color: var(--white);
+}
+
+#login .container form input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+#login .container span {
+  font-size: 18px;
+  margin-top: 0.8em;
+  display: inline-block;
+}
+
+#login .container span a {
+  color: var(--radiology-blue);
+  font-size: 19px;
+}
+
+#login .form-err-msg{
+  color: var(--pastel-red);
+  font-size: 17px;
+  letter-spacing: 1.2px;
+  user-select: none;
+  display: none;
+}
+
+#login .form-err-msg.show {
+  display: block;
+}
+
+#login .container form input[type="email"].show,
+#login .container form input[type="password"].show {
+  outline: 1px solid red;
+  border-color: transparent;
+}
+
+@media screen and (min-width: 900px) {
+  #login .container form {
+    max-width: 70%;
+  margin: 0 auto;
+}
+}
