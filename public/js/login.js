@@ -2,7 +2,6 @@
 const checkbox = document.querySelector("#showPassword");
 const emailInput = document.querySelector("input[type='email']");
 const passwordInput = document.querySelector("#password");
-console.log(emailInput);
 
 // password toggle functionality
 checkbox.addEventListener("change", function () {
@@ -26,22 +25,3 @@ document.querySelector("form").addEventListener("submit", (e) => {
     emailInput.value = ""
   }
 });
-// document.querySelector("form").addEventListener("submit", (e) => {
-//   const password = passwordInput.value.trim();
-//   const confirmPassword = confirmPasswordInput.value.trim();
-//   if (password !== confirmPassword) {
-//     e.preventDefault();
-//     document.querySelector(".password-err-msg").style.display = "block";
-//     return;
-//   }
-//   if (password === "" || confirmPassword === "") {
-//     e.preventDefault();
-//     document.querySelectorAll(".empty-password").forEach((e) => {
-//       e.style.display = "block";
-//     });
-//     return;
-//   } else {
-//     e.preventDefault();
-//     document.querySelector(".password-err-msg").style.display = "none";
-//   }
-// });
