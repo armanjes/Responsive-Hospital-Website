@@ -1,8 +1,7 @@
 // slick slider
 import "./slick/slick.min.css";
 import "./slick/slick-theme.css";
-import "./slick/jquery.min.js";
-import "./slick/jquery-migrate.js";
+import "./jquery.min.js";
 import "./slick/slick.min.js";
 import "./slider.js";
 
