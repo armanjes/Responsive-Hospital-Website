@@ -14,7 +14,6 @@ header {
 
 .navbar nav ul {
   background-color: var(--white);
-  /* background-color: red; */
   position: fixed;
   top: 0;
   left: -100%;
@@ -44,6 +43,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+  color: var(--focus-color);
+}
+
+.active-link {
   color: var(--focus-color);
 }
 

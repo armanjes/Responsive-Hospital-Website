@@ -1,3 +1,11 @@
+// slick slider
+import "./slick/slick.min.css";
+import "./slick/slick-theme.css";
+import "./slick/jquery.min.js";
+import "./slick/jquery-migrate.js";
+import "./slick/slick.min.js";
+import "./slider.js";
+
 // css
 import "../css/normalize.css";
 import "../css/style.css";
