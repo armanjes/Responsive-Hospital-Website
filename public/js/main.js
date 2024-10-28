@@ -1,10 +1,10 @@
 import "./icon.js";
 // slick slider
-import "./slick/jquery.min.js";
-import "./slick/slick.min.js";
-import "./slider.js";
-import "./slick/slick-theme.css";
-import "./slick/slick.min.css"
+// import "./slick/jquery.min.js";
+// import "./slick/slick.min.js";
+// import "./slider.js";
+// import "./slick/slick-theme.css";
+// import "./slick/slick.min.css"
 
 // css
 import "../css/normalize.css";

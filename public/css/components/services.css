@@ -1,3 +1,27 @@
-#services .box-container .img-box{
-    padding: 0 10px;
+#services .box-container .img-box {
+  /* padding: 0 10px; */
+}
+
+/* media queries for tab */
+@media screen and (min-width: 768px) {
+  #services .box-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.2em;
   }
+
+  .box-container .img-box {
+    flex-basis: 48%;
+  }
+}
+
+/* media queries for laptop & large screens */
+@media screen and (min-width: 1024px) {
+  .box-container {
+    justify-content: center;
+  }
+
+  .box-container .img-box {
+    flex-basis: 30%;
+  }
+}
