@@ -1,9 +1,10 @@
+import "./icon.js";
 // slick slider
-import "./slick/slick.min.css";
-import "./slick/slick-theme.css";
-import "./jquery.min.js";
+import "./slick/jquery.min.js";
 import "./slick/slick.min.js";
 import "./slider.js";
+import "./slick/slick-theme.css";
+import "./slick/slick.min.css"
 
 // css
 import "../css/normalize.css";
@@ -22,7 +23,6 @@ import "../css/pages/signup.css";
 import "../css/utils.css";
 
 // JavaScript
-import "./icon.js";
 import "./mobile.js";
 import "./filter.js";
 import "./login.js";

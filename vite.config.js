@@ -11,6 +11,9 @@ export default defineConfig({
         contact: resolve(__dirname, "./pages/contact.html"),
         login: resolve(__dirname, "./pages/login.html"),
       },
+      commonjsOptions: {
+        transformMixedEsModules: true,
+      },
     },
   },
 });
