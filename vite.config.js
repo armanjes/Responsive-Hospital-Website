@@ -10,9 +10,7 @@ export default defineConfig({
         doctor: resolve(__dirname, "./pages/doctor.html"),
         contact: resolve(__dirname, "./pages/contact.html"),
         login: resolve(__dirname, "./pages/login.html"),
-      },
-      commonjsOptions: {
-        transformMixedEsModules: true,
+        signup: resolve(__dirname, "./pages/signup.html"),
       },
     },
   },
